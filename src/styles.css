@@ -1,0 +1,55 @@
+body {
+    padding-top: 56px;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #557571;
+}
+
+.todo {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.todo:first-child {
+    border-top: 1px solid #ebebeb;
+}
+
+.todo h4 {
+    font-weight: lighter;
+}
+
+.about {
+    position: fixed;
+    bottom: 1px;
+    right: 5px;
+    font-size: 10px;
+    color: #c4c4c4;
+}
+
+.modal-header {
+    border-bottom: none !important;
+}
+
+.modal-footer {
+    border-top: none !important;
+}
+
+.smDevice {
+    display: none !important;
+}
+
+@media all and (max-width: 525px) {
+    .todosCount {
+        display: none !important;
+    }
+
+    .smDevice {
+        display: block !important;
+    }
+}
